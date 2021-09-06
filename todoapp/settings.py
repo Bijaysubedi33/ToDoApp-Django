@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'mytodoapp',
+    'ToDo',
 
 ]
 
@@ -117,9 +117,14 @@ USE_L10N = True
 
 USE_TZ = True
 
+# Sending Users to Login page before they can access the create page
+
+LOGIN_URL = 'login'
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
+
 
 STATIC_URL = '/static/'
 
