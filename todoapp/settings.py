@@ -131,8 +131,17 @@ LOGIN_URL = 'login'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
+<<<<<<< HEAD
+=======
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+>>>>>>> ba9bb8d9cf2a427ebda76901e02db89723db74ef
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
