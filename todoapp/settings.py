@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-r&im44*xv3gw-sw8j*piq%2pdq11k@6yk!1ivs$2yl%4t#ykpc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['mytododjango.herokuapp.com']
+ALLOWED_HOSTS = ['mytododjango.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -130,6 +130,8 @@ LOGIN_URL = 'login'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATIC_URL = '/static/'
 
