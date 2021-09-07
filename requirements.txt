@@ -16,7 +16,9 @@ conda-package-handling @ file:///Users/runner/miniforge3/conda-bld/conda-package
 cryptography @ file:///Users/runner/miniforge3/conda-bld/cryptography_1616851494586/work
 decorator @ file:///tmp/build/80754af9/decorator_1621259047763/work
 defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
+dj-database-url==0.5.0
 Django==3.2.5
+django-heroku==0.0.0
 entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1605121927639/work/dist/entrypoints-0.3-py2.py3-none-any.whl
 Flask==2.0.1
 Flask-SQLAlchemy==2.5.1
@@ -83,5 +85,6 @@ urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_161582876681
 wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
 webencodings==0.5.1
 Werkzeug==2.0.1
+whitenoise==5.3.0
 widgetsnbextension @ file:///Users/runner/miniforge3/conda-bld/widgetsnbextension_1605475516388/work
 zipp @ file:///tmp/build/80754af9/zipp_1615904174917/work
