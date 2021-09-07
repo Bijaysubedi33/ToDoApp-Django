@@ -21,3 +21,25 @@ After installing pip successfully you can install all the requirements using fol
 pip install -r requirement.txt
             or   
 pip3 install -r requirement.txt
+
+
+## App Preview
+<img width="697" alt="image" src="https://user-images.githubusercontent.com/20503506/132272631-c18e72ac-6bb9-480d-9e31-85d422d48b1e.png">
+
+## Login Page
+
+<img width="698" alt="image" src="https://user-images.githubusercontent.com/20503506/132272682-3fd86164-6d55-4276-a31c-c894e9afdc43.png">
+
+## Register Page
+
+<img width="699" alt="image" src="https://user-images.githubusercontent.com/20503506/132272712-a664a43a-68f1-48a9-bf27-e8894dab0096.png">
+
+## Update Page
+
+<img width="708" alt="image" src="https://user-images.githubusercontent.com/20503506/132272760-55b2315a-6c49-4412-ad88-4c4646c549bf.png">
+
+# Conclusion
+
+This application uses various functionality of Django such as Login authentication, Class based views, Static files and Mixins. There are lot of features that can be added in the app like task completion time which will be added incrementally.
+
+
