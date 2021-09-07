@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SECRET_KEY = 'django-insecure-r&im44*xv3gw-sw8j*piq%2pdq11k@6yk!1ivs$2yl%4t#ykpc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['mytododjango.herokuapp.com', '127.0.0.1']
 
