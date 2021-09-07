@@ -23,7 +23,10 @@ pip install -r requirement.txt
 pip3 install -r requirement.txt
 
 ## Running the application
-After installing all the requirements. You can simply go on your terminal and go to the project directory and run: python3 manage.py runserver for mac or python manage.py runserver for Windows.
+After installing all the requirements. You can simply go on your terminal and go to the project directory and run: 
+python3 manage.py runserver for mac 
+or 
+python manage.py runserver for Windows.
 
 
 
