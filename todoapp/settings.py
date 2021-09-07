@@ -134,8 +134,7 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.normpath(os.path.join(BASE_DIR, '../staticfiles'))
-
+STATICFILES_DIR = [os.path.join(BASE_DIR, 'static')]
 
 
 # Extra places for collectstatic to find static files.
