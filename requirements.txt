@@ -1,27 +1,7 @@
-appnope @ file:///Users/runner/miniforge3/conda-bld/appnope_1610094662606/work
-argon2-cffi @ file:///Users/runner/miniforge3/conda-bld/argon2-cffi_1605217032873/work
-asgiref==3.4.1
-async-generator @ file:///home/ktietz/src/ci/async_generator_1611927993394/work
-attrs @ file:///tmp/build/80754af9/attrs_1620827162558/work
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
-beautifulsoup4==4.9.3
-bleach @ file:///tmp/build/80754af9/bleach_1612211392645/work
-brotlipy==0.7.0
-certifi==2020.6.20
-cffi @ file:///Users/runner/miniforge3/conda-bld/cffi_1613413910603/work
-chardet @ file:///Users/runner/miniforge3/conda-bld/chardet_1610093454858/work
-click==8.0.1
-conda==4.10.1
-conda-package-handling @ file:///Users/runner/miniforge3/conda-bld/conda-package-handling_1618231726924/work
-cryptography @ file:///Users/runner/miniforge3/conda-bld/cryptography_1616851494586/work
-decorator @ file:///tmp/build/80754af9/decorator_1621259047763/work
 defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
 dj-database-url==0.5.0
 Django==3.2.5
 django-heroku==0.0.0
-entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1605121927639/work/dist/entrypoints-0.3-py2.py3-none-any.whl
-Flask==2.0.1
-Flask-SQLAlchemy==2.5.1
 greenlet==1.1.0
 humanfriendly==9.2
 idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
@@ -64,10 +44,8 @@ Pygments @ file:///tmp/build/80754af9/pygments_1615143339740/work
 pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1608055815057/work
 pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
 pyrsistent @ file:///Users/runner/miniforge3/conda-bld/pyrsistent_1610146832352/work
-PySocks @ file:///Users/runner/miniforge3/conda-bld/pysocks_1610291460269/work
 python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
 pytz==2021.1
-pyzmq @ file:///Users/runner/miniforge3/conda-bld/pyzmq_1614611820252/work
 requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1608156231189/work
 ruamel-yaml-conda @ file:///Users/runner/miniforge3/conda-bld/ruamel_yaml_1611943386799/work
 selenium==3.141.0
@@ -76,7 +54,6 @@ six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
 soupsieve==2.2.1
 SQLAlchemy==1.4.18
 sqlparse==0.4.1
-terminado @ file:///Users/runner/miniforge3/conda-bld/terminado_1617048703647/work
 testpath @ file:///home/ktietz/src/ci/testpath_1611930608132/work
 tornado @ file:///Users/runner/miniforge3/conda-bld/tornado_1610094701146/work
 tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1617680194207/work
