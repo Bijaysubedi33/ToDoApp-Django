@@ -136,11 +136,7 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.normpath(os.path.join(BASE_DIR, '../staticfiles'))
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-MEDIA_URL = '/media/'
-
-MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "media")
 
 # Extra places for collectstatic to find static files.
 
