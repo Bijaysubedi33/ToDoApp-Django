@@ -1,3 +1,8 @@
+{% extends 'ToDo/main.html' %}
+
+{% block content %}
+
+
 <h1>
     Tasks : {{ TaskDetails }} 
     {{ TaskDetails.description }}
@@ -6,3 +11,5 @@
     
 </h1>
 <a href="{% url 'tasks' %}">Show all tasks</a>
+
+{% endblock content %}

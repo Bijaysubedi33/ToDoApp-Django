@@ -1,9 +1,26 @@
-<a href="{% url 'tasks' %}">Go Back</a>
+{% extends 'ToDo/main.html' %}
+
+{% block content %}
+
+
+<div class="header-bar">
+
+<a href="{% url 'tasks' %}">&#8592;Back</a>
+
+</div>
+
+<div class="form-body">
+
+
 <form method="POST"> 
     {% csrf_token %}
     <p>
         Are You sure you wanna delete task : {{ TaskDelete.title }}
     </p>
 
-    <input value="Delete" type="submit" />
+    <input class="button" value="Delete" type="submit" />
 </form>
+
+</div>
+
+{% endblock content %}
