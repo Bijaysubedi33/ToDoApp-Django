@@ -11,9 +11,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
 from pathlib import Path
-import djoser
 import django_heroku
-import dj_database_url
+
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
