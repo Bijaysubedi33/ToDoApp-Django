@@ -1,4 +1,5 @@
 from django.shortcuts import redirect
+from django.utils.module_loading import import_string
 from .models import Tasks
 from django.http import HttpResponse
 from django.views.generic.list import ListView
@@ -9,6 +10,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import login
 from django.urls import reverse_lazy
+from django.contrib.auth.password_validation import validate_password
 # Create your views here.
 
 
@@ -64,7 +66,7 @@ class TaskDetails(LoginRequiredMixin, DetailView):
 
 class TaskCreate(LoginRequiredMixin, CreateView):
     model = Tasks
-    fields = ['title', 'description', 'completed']
+    fields = ['title', 'description']
     success_url = reverse_lazy('tasks')
 
     def form_valid(self, form):

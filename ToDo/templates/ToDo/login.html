@@ -1,6 +1,7 @@
 {% extends 'ToDo/main.html' %}
-
+{% load socialaccount %}
 {% block content %}
+
 
 <div class="header-bar">
 <h1>Login</h1>
@@ -16,7 +17,9 @@
     
     </form>
 
-    <p>Create an Account?<a href="{% url 'register' %}"> Register</a></p>
+    <p>Create an Account?<a href="{% url 'register' %}"> Register</a> 
+    <a href="{% provider_login_url 'google' %}">Login With Google</a>
+</p>
 
 </div>
 
